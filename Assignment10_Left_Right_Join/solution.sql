@@ -11,3 +11,7 @@ USE CollegeDB;
 -- LEFT JOIN
 
 -- RIGHT JOIN
+Department.DepartmentName
+FROM Student
+INNER JOIN Department
+ON Student.DepartmentID = Department.DepartmentID;
