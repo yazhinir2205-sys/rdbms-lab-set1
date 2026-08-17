@@ -5,6 +5,11 @@
 -- Use Database
 
 -- Create Department Table
+
+CREATE DATABASE CollegeDB;
+
+USE CollegeDB;
+
 CREATE TABLE Department (
     DepartmentID INT(5) PRIMARY KEY,
     DepartmentName VARCHAR(20),
