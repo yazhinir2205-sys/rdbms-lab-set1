@@ -17,3 +17,12 @@ CREATE TABLE Student(
 -- Add PhoneNumber
 
 -- Display structure
+USE CollegeDB;
+
+ALTER TABLE Student
+ADD Email VARCHAR(30);
+
+ALTER TABLE Student
+ADD PhoneNumber BIGINT;
+
+DESC Student;
